@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    padding: 15px 0;
+    z-index: 1000;
+    border-bottom: 2px solid red;
+    box-shadow: 0 0 15px red; /* Red light glow */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Background Section Layout */
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+}
+
+/* Specific Backgrounds - Replace URLs with your images */
+.electronics-bg { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1518770660439-4636190af475'); }
+.coding-bg { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1587620962725-abab7fe55159'); }
+.embedded-bg { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1555664424-778a1e5e1b48'); }
+.resume-bg { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1586281380349-632531db7ed4'); }
+.contact-bg { background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1523961131990-5ea7c61b2107'); }
+
+/* Content Boxes */
+.content-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border: 3px solid red;
+    box-shadow: 0 0 20px red; /* Red light border effect */
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Text Formatting */
+h1, h2 {
+    color: #000; /* Bold black text for headings */
+    background: rgba(255, 255, 255, 0.8); /* Slight background to make black visible on dark */
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+p, li {
+    color: white; /* Information in white text */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.sub-section {
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
