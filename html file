@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero electronics-bg">
+        <div class="content-box">
+            <h1><strong>HOME</strong></h1>
+            <p>Welcome! I am SEJAL DNYANESHWAR DALIMBKAR. 
+                A Motivated and detail-oriented Electronics and Communication Engineering student with a strong passion for technology, innovation, and continuous learning. Possess excellent problem-solving, communication, and teamwork skills with the ability to adapt quickly to new challenges. Skilled in circuit design, Arduino-based projects, presentation development, and technical documentation. Known for creativity, leadership qualities, time management, and a professional approach towards academic and project work. Dedicated to applying technical knowledge and innovative thinking to contribute effectively in the field of engineering and technology.</p>
+        </div>
+    </section>
+
+    <section id="about" class="hero coding-bg">
+        <div class="content-box">
+            <h1><strong>ABOUT ME</strong></h1>
+            
+            <div class="sub-section">
+                <h2><strong>Skills</strong></h2>
+                <ul>
+                    <li>electrincs Circuit Design and simulaton</li>
+                    <li>PCB design</li>
+                    <li>Microcontrollers</li>
+                   <li>Presentation & Visual Communication</li>
+            </div>
+
+            <div class="sub-section">
+                <h2><strong>Soft Skills (Coding)</strong></h2>
+                <ul>
+                    <li>C/C++ </li>
+                   <li> Python </li>
+                   <li> html </li> 
+                   <li> Algorithmic Thinking </li>
+                   <li> Version Control. </li>
+            </div>
+
+            <div class="sub-section">
+                <h2><strong>Qualification Details</strong></h2>
+                <ul>
+                    <li>Btech in entc [2029]  </li>
+                    <li>HSC [2025] {74 %}</li>
+                    <li>JEE [2025] {89.4%}</li>
+                    <li>CET [2025] {92%}</li>
+                    <li>SSC [2023] {97.4}</li>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="hero embedded-bg">
+        <div class="content-box">
+            <h1><strong>PROJECTS</strong></h1>
+            <ul>
+                <li><strong>1.ESP32 + Google Sheets Civic App:</strong> An ESP32-based automation system.</li>
+                <li><strong>2.auto breaking system in cars</strong> accident prevention using breaks.</li>
+                <li><strong>3.software + hardware project of rain water alarm
+system:</strong> rain detector with buzzer.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume" class="hero resume-bg">
+        <div class="content-box">
+            <h1><strong>RESUME</strong></h1>
+            <p>Click below to view or download my full professional history.</p>
+            <a href="https://drive.google.com/file/d/17-tBRx02MxYEu8nLZvGWj4uVgZN-Pmb-/view?usp=drivesdk" download>
+            <button class="btn">Download PDF</button>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="hero contact-bg">
+        <div class="content-box">
+            <h1><strong>CONTACT ME</strong></h1>
+            <p>Email: sejaldalimbkar@2904@gmail.com</p>
+            <p>Phone: 8446308195</p>
+            <p>LinkedIn: linkedin.com/in/sejaldalimbkar</p>
+        </div>
+    </section>
+
+</body>
+</html>
